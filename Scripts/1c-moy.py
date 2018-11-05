@@ -49,8 +49,8 @@ while True:
             #Moyenne 
         print(round(sum(notes)/len(notes), 2))
         #tri pour les 5 premières notes du dictionaire ordre décroissant
-        sorted = sorted(dico.items(), key=lambda eleve: eleve[1], reverse=True)
-        del sorted[5:]
+        nom = sorted(dico.items(), key=lambda eleve: eleve[1], reverse=True)
+        del nom[5:]
         break
     except ZeroDivisionError:
         print("Il n'y a pas de note")

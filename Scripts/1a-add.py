@@ -15,10 +15,10 @@ while True:
     saisie_1 =  input ('Saisir un nombre : ')
     saisie_2 = input ('Saisir un autre nombre : ')
 #je teste les variable pour voir si ce sont des nombres
-       try:
+    try:
                  saisie_1 =int(saisie_1)
                  saisie_2 =int(saisie_2)
-       except:
+    except:
             print ("erreur dans la saisie")
             break
 #je convertis les variables
