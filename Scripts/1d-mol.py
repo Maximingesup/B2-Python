@@ -13,7 +13,7 @@ import signal
 r=random.randint(0, 100)
 #Fonction pour le message d'au revoir et la solution 
 def leave():
- writer("au revoir ! le résultat est de "+str(r))
+ print("au revoir ! le résultat est de "+str(r))
  sys.exit(0)
 def ctrl_c(sig,frame):
  sys.exit(0)
