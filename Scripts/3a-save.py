@@ -1,7 +1,8 @@
 #!/usr/bin/python3.6
-
-
-#Date: 06 / 11 / 2018# Script 3 a - save.py# Consignes:
+#Auteur : Maxim Germain
+#Date: 06 / 11 / 2018
+#Script 3a-save.py
+#Consignes: Créer une sauvegarde et l'archiver
 
 import shutil
 import gzip
