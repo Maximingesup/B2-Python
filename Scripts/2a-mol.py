@@ -6,7 +6,6 @@
 
 import random
 import sys
-import signal
 import re
 
 
@@ -45,7 +44,7 @@ while True:
  if re.match("^[0-9]+$", answer):
         answer = int(answer)
  elif  int(answer) == r:
-  print("Trouvé !")
+  writer("Trouvé !")
   leave()
  else:
   if int(answer) > r:
